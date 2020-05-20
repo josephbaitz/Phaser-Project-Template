@@ -10,7 +10,6 @@
   "author": "Joseph Baitz",
   "license": "ISC",
   "dependencies": {
-    "hel": "^2.0.1",
     "phaser": "^3.23.0"
   },
   "devDependencies": {
