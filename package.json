@@ -1,0 +1,27 @@
+{
+  "name": "carbon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 8000",
+    "build": "parcel build src/index.html --out-dir dist"
+  },
+  "author": "Joseph Baitz",
+  "license": "ISC",
+  "dependencies": {
+    "hel": "^2.0.1",
+    "phaser": "^3.23.0"
+  },
+  "devDependencies": {
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ]
+}
